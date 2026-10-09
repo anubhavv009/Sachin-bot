@@ -62,7 +62,7 @@ async def auto_accept(client: Client, request: ChatJoinRequest):
         msg1 = (
             f"HELLO {user_name.upper()} 🖐️\n"
             f"APKI REQUEST HAMEN MIL GAI HAI JALDI ACCEPT HO JAYEGI 😃\n\n"
-            f"T AB TAK AAP NICHE DI GAI HUI VIDEO DEKH LO 📣📣"
+            f"TAB TAK AAP NICHE DI GAI HUI VIDEO DEKH LO 📣📣"
         )
         await client.send_message(request.from_user.id, msg1)
 
